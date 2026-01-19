@@ -1,28 +1,111 @@
-Sentiment Analysis of Financial Text Using LSTM, RNN, and Word2Vec
-This project focuses on analyzing the sentiment of financial text data using machine learning and deep learning techniques. The aim is to classify text (e.g., news headlines or articles) as positive, negative, or neutral to assist in financial decision-making processes.
+# Sentiment Analysis of Financial Text Using LSTM, RNN, and Word2Vec
 
-Developed in Python, the project integrates traditional models like Logistic Regression with deep learning architectures such as LSTM and RNN, and uses Word2Vec embeddings for capturing semantic meaning in text.
+## 📌 Project Overview
 
-Features
-Identifies the sentiment behind financial texts (positive, negative, or neutral).
-Removes noise, stop words, and performs tokenization and stemming for clean input.
-Implemented both TF-IDF and Word2Vec to convert textual data into numeric form.
-Trained and compared models including:
-Recurrent Neural Network (RNN)
-Long Short-Term Memory (LSTM)
-Used accuracy, confusion matrix, and classification report to evaluate model performance.
-Employed Matplotlib and Seaborn to plot sentiment distribution and model results.
-Technologies Used
-Python – Core programming language
-Pandas / NumPy – Data preprocessing and analysis
-Matplotlib / Seaborn – Data visualization
-Scikit-learn – Machine learning models and evaluation
-NLTK / spaCy – Natural Language Processing
-TensorFlow / Keras – Deep learning (LSTM, RNN)
-Gensim – Word2Vec embeddings
-Project Workflow
-Data Collection – Loaded financial text dataset (e.g. headlines/news).
-Data Cleaning – Removed unwanted characters, stopwords, and normalized text.
-Feature Extraction – Applied TF-IDF and Word2Vec for vectorization.
-Model Training – Built and trained ML & DL models for sentiment classification.
-Evaluation – Compared model performance with relevant metrics.
+This project focuses on analyzing the sentiment of **financial text data** such as news headlines and articles using **machine learning and deep learning techniques**.
+The goal is to classify financial text into **Positive**, **Negative**, or **Neutral** sentiments to support better financial analysis and decision-making.
+
+The project is developed in **Python** and combines traditional machine learning models with advanced deep learning architectures like **RNN** and **LSTM**, along with **Word2Vec embeddings** to capture semantic meaning in financial language.
+
+---
+
+## 🎯 Objectives
+
+* Identify sentiment in financial text data
+* Compare traditional ML models with deep learning approaches
+* Analyze model performance using standard evaluation metrics
+* Visualize sentiment distribution and prediction results
+
+---
+
+## ✨ Features
+
+* Classifies financial text into **Positive**, **Negative**, or **Neutral**
+* Performs text preprocessing:
+
+  * Noise removal
+  * Stopword removal
+  * Tokenization
+  * Stemming / Lemmatization
+* Implements multiple text vectorization techniques:
+
+  * **TF-IDF**
+  * **Word2Vec**
+* Trains and evaluates multiple models:
+
+  * Logistic Regression
+  * Recurrent Neural Network (RNN)
+  * Long Short-Term Memory (LSTM)
+* Evaluates models using:
+
+  * Accuracy
+  * Confusion Matrix
+  * Classification Report
+* Visualizes results using graphs and plots
+
+---
+
+## 🧠 Models Used
+
+* **Logistic Regression**
+* **Recurrent Neural Network (RNN)**
+* **Long Short-Term Memory (LSTM)**
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python** – Core programming language
+* **Pandas / NumPy** – Data preprocessing and analysis
+* **Matplotlib / Seaborn** – Data visualization
+* **Scikit-learn** – Machine learning models and evaluation
+* **NLTK / spaCy** – Natural Language Processing
+* **TensorFlow / Keras** – Deep learning models (RNN, LSTM)
+* **Gensim** – Word2Vec embeddings
+
+---
+
+## 🔄 Project Workflow
+
+1. **Data Collection**
+   Loaded financial text datasets such as news headlines or articles.
+
+2. **Data Cleaning**
+   Removed unwanted characters, stopwords, and normalized text data.
+
+3. **Feature Extraction**
+   Converted text into numerical form using **TF-IDF** and **Word2Vec**.
+
+4. **Model Training**
+   Trained machine learning and deep learning models for sentiment classification.
+
+5. **Evaluation**
+   Compared model performance using accuracy scores, confusion matrices, and classification reports.
+
+---
+
+## 📊 Results & Visualization
+
+* Sentiment distribution plots
+* Model comparison charts
+* Confusion matrices for each model
+
+---
+
+## 🚀 Future Enhancements
+
+* Use Transformer-based models like **BERT**
+* Train on larger and more diverse financial datasets
+* Deploy as a web application or API
+* Improve neutral sentiment classification
+
+
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how combining **traditional machine learning**, **deep learning**, and **word embeddings** can effectively analyze sentiment in financial text data and support data-driven financial insights.
+
+---
+
