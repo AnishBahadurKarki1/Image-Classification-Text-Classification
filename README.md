@@ -9,16 +9,12 @@ decision-making. The project is developed in **Python** and combines traditional
 models with advanced deep learning architectures like **RNN** and **LSTM**, along with **Word2Vec 
 embeddings** to capture semantic meaning in financial language.
 
----
-
 ## 🎯 Objectives
 
 * Identify sentiment in financial text data
 * Compare traditional ML models with deep learning approaches
 * Analyze model performance using standard evaluation metrics
 * Visualize sentiment distribution and prediction results
-
----
 
 ## ✨ Features
 
@@ -45,15 +41,11 @@ embeddings** to capture semantic meaning in financial language.
   * Classification Report
 * Visualizes results using graphs and plots
 
----
-
 ## 🧠 Models Used
 
 * **Logistic Regression**
 * **Recurrent Neural Network (RNN)**
 * **Long Short-Term Memory (LSTM)**
-
----
 
 ## 🛠️ Technologies Used
 
@@ -64,8 +56,6 @@ embeddings** to capture semantic meaning in financial language.
 * **NLTK / spaCy** – Natural Language Processing
 * **TensorFlow / Keras** – Deep learning models (RNN, LSTM)
 * **Gensim** – Word2Vec embeddings
-
----
 
 ## 🔄 Project Workflow
 
@@ -84,15 +74,11 @@ embeddings** to capture semantic meaning in financial language.
 5. **Evaluation**
    Compared model performance using accuracy scores, confusion matrices, and classification reports.
 
----
-
 ## 📊 Results & Visualization
 
 * Sentiment distribution plots
 * Model comparison charts
 * Confusion matrices for each model
-
----
 
 ## 🚀 Future Enhancements
 
@@ -101,14 +87,6 @@ embeddings** to capture semantic meaning in financial language.
 * Deploy as a web application or API
 * Improve neutral sentiment classification
 
-
-
----
-
 ## 📌 Conclusion
 
 This project demonstrates how combining **traditional machine learning**, **deep learning**, and **word embeddings** can effectively analyze sentiment in financial text data and support data-driven financial insights.
-
----
-
-
